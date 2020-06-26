@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>两栏布局01</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      color: white;
+    }
+    body div {
+      float:left;
+    }
+    #left {
+      flex: 3;
+      background-color: blueviolet;
+      height:500px;
+    }
+    #right {
+      flex: 7;
+      background-color: burlywood;
+      height:500px;
+    }
+  </style>
+</head>
+<body>
+  <div id="left">left</div>
+  <div id="right">right</div>
+</body>
+</html>

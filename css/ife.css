@@ -1,0 +1,180 @@
+body {
+  margin:0;
+  padding: 0;
+  min-width: 1564px;
+}
+* {
+  list-style: none;
+}
+/* 页首开始 */
+header {
+  width: 100%;
+  height: 80px;
+  color: white;
+  display: flex;
+}
+#header_left {
+  background-color: #333333;
+  float: left;
+  flex: 1;
+  text-align: end;
+}
+#header_right {
+  background-color: #333333;
+  float:right;
+  flex: 1;
+}
+#header_center {
+  background-color: #333333;
+  width: 960px;
+}
+#header_right ol {
+  padding: 0;
+}
+#header_right ol li {
+  float: left;
+  text-decoration: underline;
+  margin-right: 10px;
+}
+#header_right ol li a:link {
+  color: white;
+}
+a:visited {
+  color: white;
+}
+/* 页首结束 */
+/* 轮播开始 */
+#Carousel {
+  width: 100%;
+  height: 300px;
+  background-color: #66BB33;
+  clear: both;
+  position: relative;
+}
+#Carousel ul {
+  margin: 0;
+}
+#Carousel div.number {
+  position: absolute;
+  bottom: 8px;
+  right: 150px;
+}
+#Carousel div.number ul li {
+  border: 1px solid gray;
+  width: 25px;
+  height: 30px;
+  color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  line-height: 30px;
+  background-color: rgba(255, 255, 255, 0.6);
+  float: left;
+}
+#Carousel div.number ul li+li {
+  margin-left: 6px;
+}
+#Carousel div.number .number2 {
+  height: 40px;
+  line-height: 50px;
+  color: rgba(0, 0, 0, 1);
+  background-color: rgba(255, 255, 255, 0.8);
+  position: relative;
+  top: -10px;
+}
+/* 轮播结束 */
+/* 导航栏开始 */
+#nav {
+  height: 80px;
+  display: flex;
+  padding: 0;
+}
+#nav_left {
+  flex: 1;
+  border-bottom: 2px solid#E2E2E2;
+  float: left;
+}
+#nav_center {
+  width: 600px;
+  padding-left: 360px;
+}
+#nav_center div {
+  float: left;
+}
+#nav_right {
+  float: right;
+  flex: 1;
+  border-bottom: 2px solid#E2E2E2;
+}
+#nav div ol {
+  margin-bottom: 0;
+  margin-top: 20px;
+  padding: 0;
+  display: flex;
+}
+#nav_center div.nav_center_left ol li {
+  float: left;
+  border: 2px solid #E2E2E2;
+  border-bottom: white;
+  box-sizing: border-box;
+  flex: 1;
+  max-width: 120px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  border-radius: 30px 30px 0 0;
+  background-color: #EEEEEE;
+}
+#nav div ol li:first-child {
+  background-color: white;
+  border-bottom: 2px solid white;
+}
+#nav_center div.nav_center_left {
+  width: 360px;
+  margin-left: -100%;
+  position: relative;
+  left: -360px;
+}
+#nav_center div.nav_center_right {
+  border-bottom: 2px solid#E2E2E2;
+  height: 78px;
+  width: 100%;
+}
+/* 导航栏结束 */
+/* 内容区域开始 */
+#content {
+  display: flex;
+}
+#con_left {
+  float: left;
+  flex: 1;
+}
+#con_right {
+  float: right;
+  flex: 1;
+}
+#con_center {
+  width: 960px;
+  clear: both;
+}
+#con_center ul {
+  padding-left: 0;
+  height: 580px;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-between;
+  justify-content: space-between;
+}
+#con_center ul li {
+  padding: 80px;
+  border: 2px solid #E2E2E2;
+}
+/* 内容区域结束 */
+/* 页脚开始 */
+footer {
+  height: 100px;
+  text-align: center;
+  background-color: #666666;
+  color: white;
+  font-size: 14px;
+  padding-top: 10px;
+}
+/* 页脚结束 */
