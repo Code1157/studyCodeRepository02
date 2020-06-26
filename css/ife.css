@@ -28,19 +28,26 @@ header {
   background-color: #333333;
   width: 960px;
 }
-#header_right ol {
+#header_center samp {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 80px;
+}
+#header_center ol {
   padding: 0;
+  float: right;
+  margin-top: 5px;
 }
-#header_right ol li {
+#header_center ol li{
   float: left;
-  text-decoration: underline;
   margin-right: 10px;
+  font-weight: 500;
 }
-#header_right ol li a:link {
+#header_center ol li a:link {
   color: white;
 }
 a:visited {
-  color: white;
+  color: aqua;
 }
 /* 页首结束 */
 /* 轮播开始 */
